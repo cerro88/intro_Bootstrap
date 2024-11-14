@@ -86,6 +86,46 @@
         </div>
     </nav>
 
+
+<h2>Expand a sm</h2>
+<!--NAV-->
+<nav class="navbar navbar-expand-sm navbar-light bg-primary mb-5">
+    <!-- "navbar-expand-lg" hace que el menú se colapse en pantallas pequeñas y se expanda en pantallas grandes.
+        "navbar-light" y "bg-primary" aplican estilos de Bootstrap al navbar (color de fondo y texto). -->
+    <a class="navbar-brand" href="#">Cerro</a> 
+    <!-- Marca del sitio o logo, que permanece visible en todas las pantallas -->
+    <!-- Botón de despliegue (hamburguesa) que aparece en pantallas pequeñas para abrir el menú -->
+    <button class="navbar-toggler" 
+        type="button" 
+        data-toggle="collapse" 
+        data-target="#navbarSupportedContent" 
+        aria-controls="navbarSupportedContent" 
+        aria-expanded="false"
+        aria-label="Toggle navigation"> 
+    <span class="navbar-toggler-icon"></span> 
+    <!-- Icono de tres líneas (hamburguesa) que se muestra en el botón -->
+    </button>
+    <!-- Contenedor de los enlaces de navegación -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <!-- "collapse navbar-collapse" hace que el contenido se colapse en pantallas pequeñas -->
+    <ul class="navbar-nav mr-auto"> 
+        <!-- Lista de enlaces de navegación alineados a la izquierda -->
+        <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <!-- Enlace al inicio con "active" para marcar como activo, y "sr-only" para accesibilidad -->
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#">Link</a> 
+        <!-- Enlace de navegación simple -->
+        </li>
+        <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        <!-- Enlace deshabilitado, con tabindex -1 para que no sea seleccionable -->
+        </li>
+    </ul>
+    </div>
+</nav>
+
         <h1>Introducción a Bootstrapt</h1>
     <!--Colores en bootstrap-->
     <div class="container">
