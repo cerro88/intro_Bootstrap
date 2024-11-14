@@ -7,7 +7,87 @@
     <link rel="stylesheet" href="css/bootstrap.css">
 </head>
 <body>
-    <h1>Introducció a Bootstrapt</h1>
+    <h2>Expand a lg</h2>
+    <!--NAV-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+        <!-- "navbar-expand-lg" hace que el menú se colapse en pantallas pequeñas y se expanda en pantallas grandes.
+            "navbar-light" y "bg-primary" aplican estilos de Bootstrap al navbar (color de fondo y texto). -->
+        <a class="navbar-brand" href="#">Cerro</a> 
+        <!-- Marca del sitio o logo, que permanece visible en todas las pantallas -->
+        
+        <!-- Botón de despliegue (hamburguesa) que aparece en pantallas pequeñas para abrir el menú -->
+        <button class="navbar-toggler" 
+            type="button" 
+            data-toggle="collapse" 
+            data-target="#navbarSupportedContent" 
+            aria-controls="navbarSupportedContent" 
+            aria-expanded="false"
+            aria-label="Toggle navigation"> 
+        <span class="navbar-toggler-icon"></span> 
+        <!-- Icono de tres líneas (hamburguesa) que se muestra en el botón -->
+        </button>
+        <!-- Contenedor de los enlaces de navegación -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- "collapse navbar-collapse" hace que el contenido se colapse en pantallas pequeñas -->
+        
+        <ul class="navbar-nav mr-auto"> 
+            <!-- Lista de enlaces de navegación alineados a la izquierda -->
+            <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <!-- Enlace al inicio con "active" para marcar como activo, y "sr-only" para accesibilidad -->
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Link</a> 
+            <!-- Enlace de navegación simple -->
+            </li>
+            <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            <!-- Enlace deshabilitado, con tabindex -1 para que no sea seleccionable -->
+            </li>
+        </ul>
+        </div>
+    </nav>
+
+    <h2>Expand a md</h2>
+    <!--NAV-->
+    <nav class="navbar navbar-expand-md navbar-light bg-primary">
+        <!-- "navbar-expand-lg" hace que el menú se colapse en pantallas pequeñas y se expanda en pantallas grandes.
+            "navbar-light" y "bg-primary" aplican estilos de Bootstrap al navbar (color de fondo y texto). -->
+        <a class="navbar-brand" href="#">Cerro</a> 
+        <!-- Marca del sitio o logo, que permanece visible en todas las pantallas -->
+        <!-- Botón de despliegue (hamburguesa) que aparece en pantallas pequeñas para abrir el menú -->
+        <button class="navbar-toggler" 
+            type="button" 
+            data-toggle="collapse" 
+            data-target="#navbarSupportedContent" 
+            aria-controls="navbarSupportedContent" 
+            aria-expanded="false"
+            aria-label="Toggle navigation"> 
+        <span class="navbar-toggler-icon"></span> 
+        <!-- Icono de tres líneas (hamburguesa) que se muestra en el botón -->
+        </button>
+        <!-- Contenedor de los enlaces de navegación -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- "collapse navbar-collapse" hace que el contenido se colapse en pantallas pequeñas -->
+        <ul class="navbar-nav mr-auto"> 
+            <!-- Lista de enlaces de navegación alineados a la izquierda -->
+            <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <!-- Enlace al inicio con "active" para marcar como activo, y "sr-only" para accesibilidad -->
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Link</a> 
+            <!-- Enlace de navegación simple -->
+            </li>
+            <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            <!-- Enlace deshabilitado, con tabindex -1 para que no sea seleccionable -->
+            </li>
+        </ul>
+        </div>
+    </nav>
+
+        <h1>Introducció a Bootstrapt</h1>
     <!--Colores en bootstrap-->
     <div class="container">
         <h2>COLORS</h2>
@@ -70,11 +150,16 @@
             <h2>Marging top i botom</h2>
             <p class="bg-light my-5">marging top i botom.</p>
             <p class="bg-light mx-5">marging l i r</p>
-
-            
         </div>
     </div>
 
 </body>
+<!-- jQuery: es necesario para versiones de Bootstrap anteriores a la 5 -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<!-- Popper.js: es necesario para posicionar elementos emergentes como tooltips y dropdowns -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<!-- Bootstrap JS: el archivo JavaScript principal de Bootstrap -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!--Archivo local de Bootstrap JS -->
 <script src="js/bootstrap.js"></script>
 </html>
