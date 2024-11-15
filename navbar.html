@@ -7,6 +7,46 @@
     <link rel="stylesheet" href="css/bootstrap.css">
 </head>
 <body>
+
+    <nav class="navbar navbar-expand-md navbar-light bg-primary">
+        <!-- Marca del sitio -->
+        <a class="navbar-brand" href="index.html">Inicio</a>
+        <!-- Botón hamburguesa para móviles -->
+        <button class="navbar-toggler" 
+                type="button" 
+                data-toggle="collapse" 
+                data-target="#navbarContent" 
+                aria-controls="navbarContent" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Contenedor de enlaces -->
+        <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav mr-auto">
+                <!-- Enlace a cada archivo HTML -->
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="colors.html">Colores</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="grid_system.html">Sistema de Rejilla</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="margin_padding.html">Márgenes y Padding</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="navbar.html">Navbar</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+
     <h2>Expand a lg</h2>
     <!--NAV-->
     <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
@@ -14,6 +54,8 @@
             "navbar-light" y "bg-primary" aplican estilos de Bootstrap al navbar (color de fondo y texto). -->
         <a class="navbar-brand" href="#">Cerro</a> 
         <!-- Marca del sitio o logo, que permanece visible en todas las pantallas -->
+
+
         <!-- Botón de despliegue (hamburguesa) que aparece en pantallas pequeñas para abrir el menú -->
         <button class="navbar-toggler" 
             type="button" 
@@ -25,9 +67,11 @@
         <span class="navbar-toggler-icon"></span> 
         <!-- Icono de tres líneas (hamburguesa) que se muestra en el botón -->
         </button>
-        <!-- Contenedor de los enlaces de navegación -->
+
+
+        <!-- Contenedor de los enlaces -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <!-- "collapse navbar-collapse" hace que el contenido se colapse en pantallas pequeñas -->
+        <!-- "collapse navbar-collapse" hace que el contenido se colapse en pantallas pequeñas?? -->
         
         <ul class="navbar-nav mr-auto"> 
             <!-- Lista de enlaces de navegación alineados a la izquierda -->
