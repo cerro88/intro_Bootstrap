@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Introducción a Bootstrapt</title>
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
@@ -70,21 +71,31 @@
         <p class="text-black-50">.text-black-50</p>
         <p class="text-white-50 bg-dark">.text-white-50</p>
     </div>
+    
+    <div class="container mt-5">
+        <p class="text-primary">Si se quiere sobreescribir un estilo de bootstrap, por ejemplo, para dar otro color:</p>
+        <p class="text-success">Ejemplo</p>
+        <p class="text-danger">.text-primary{
+            color: rgb(189, 45, 69) !important;
+        }
+        </p>
+        <p class="text-white-50 bg-dark px-2">Es muy importante poner !important, ya que si no, no se sobreescribe</p>
+    </div>
 
 
     <!--Background en bootstrap-->
     <div class="container mt-5">
         <h2>BACKGROUNDS</h2>
-        <div class="p-3 mb-2 bg-primary text-white">.bg-primary</div>
-        <div class="p-3 mb-2 bg-secondary text-white">.bg-secondary</div>
-        <div class="p-3 mb-2 bg-success text-white">.bg-success</div>
-        <div class="p-3 mb-2 bg-danger text-white">.bg-danger</div>
-        <div class="p-3 mb-2 bg-warning text-dark">.bg-warning</div>
-        <div class="p-3 mb-2 bg-info text-white">.bg-info</div>
-        <div class="p-3 mb-2 bg-light text-dark">.bg-light</div>
-        <div class="p-3 mb-2 bg-dark text-white">.bg-dark</div>
-        <div class="p-3 mb-2 bg-white text-dark">.bg-white</div>
-        <div class="p-3 mb-2 bg-transparent text-dark">.bg-transparent</div>
+        <div class="p-3 mb-2 bg-primary text-white text-center">.bg-primary</div>
+        <div class="p-3 mb-2 bg-secondary text-white text-center">.bg-secondary</div>
+        <div class="p-3 mb-2 bg-success text-white text-center">.bg-success</div>
+        <div class="p-3 mb-2 bg-danger text-white text-center">.bg-danger</div>
+        <div class="p-3 mb-2 bg-warning text-dark text-center">.bg-warning</div>
+        <div class="p-3 mb-2 bg-info text-white text-center">.bg-info</div>
+        <div class="p-3 mb-2 bg-light text-dark text-center">.bg-light</div>
+        <div class="p-3 mb-2 bg-dark text-white text-center">.bg-dark</div>
+        <div class="p-3 mb-2 bg-white text-dark text-center">.bg-white</div>
+        <div class="p-3 mb-2 bg-transparent text-dark text-center">.bg-transparent</div>
     </div>
 
 
