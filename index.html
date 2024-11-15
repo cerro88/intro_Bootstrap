@@ -8,9 +8,10 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-md navbar-light bg-primary">
+      <!--Menú de navegación-->
+      <nav class="navbar navbar-expand-md navbar-light bg-primary text-center">
         <!-- Marca del sitio -->
-        <a class="navbar-brand" href="index.html">Inicio</a>
+        <a class="navbar-brand mx-5" href="index.html">Cerro</a>
         <!-- Botón hamburguesa-->
         <button class="navbar-toggler" 
                 type="button" 
@@ -21,34 +22,71 @@
                 aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <!-- Contenedor de enlaces -->
-        <div class="collapse navbar-collapse" id="navbarContent">
+        <!-- Contenedor de enlaces centrado con justify-content-center-->
+        <div class="collapse navbar-collapse justify-content-center" id="navbarContent">
             <ul class="navbar-nav mr-auto">
-                <!-- Enlace a cada página -->
+                <!-- Enlace a cada página con un margen a cada lado -->
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">Inicio</a>
+                    <a class="nav-link mx-2" href="index.html">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="colors.html">Colors</a>
+                    <a class="nav-link mx-2" href="grid.html">Grid</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="grid_system.html">Grid system</a>
+                    <a class="nav-link mx-2" href="spacings.html">Spacings</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="margin_padding.html">Márgenes y Padding</a>
+                    <a class="nav-link mx-2" href="barradenavegacio.html">Navbar</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="navbar.html">Navbar</a>
+                    <a class="nav-link mx-2" href="responsive.html">Responsive</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="breakpoints.html">Breakpoints</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="galeria.html">Galeria</a>
+                    <a class="nav-link mx-2" href="galeria.html">Galeria</a>
                 </li>
             </ul>
         </div>
     </nav>
+    <!--fin del menú de navegación-->
+
+
+
+
+    <h1 class="mt-2 text-center">Introducción a Bootstrapt</h1>
+    <!--Colores en bootstrap-->
+    <div class="container mt-5">
+        <h2>COLORS</h2>
+        <p class="text-primary">.text-primary</p>
+        <p class="text-secondary">.text-secondary</p>
+        <p class="text-success">.text-success</p>
+        <p class="text-danger">.text-danger</p>
+        <p class="text-warning">.text-warning</p>
+        <p class="text-info">.text-info</p>
+        <p class="text-light bg-dark">.text-light</p>
+        <p class="text-dark">.text-dark</p>
+        <p class="text-body">.text-body</p>
+        <p class="text-muted">.text-muted</p>
+        <p class="text-white bg-dark">.text-white</p>
+        <p class="text-black-50">.text-black-50</p>
+        <p class="text-white-50 bg-dark">.text-white-50</p>
+    </div>
+
+
+    <!--Background en bootstrap-->
+    <div class="container mt-5">
+        <h2>BACKGROUNDS</h2>
+        <div class="p-3 mb-2 bg-primary text-white">.bg-primary</div>
+        <div class="p-3 mb-2 bg-secondary text-white">.bg-secondary</div>
+        <div class="p-3 mb-2 bg-success text-white">.bg-success</div>
+        <div class="p-3 mb-2 bg-danger text-white">.bg-danger</div>
+        <div class="p-3 mb-2 bg-warning text-dark">.bg-warning</div>
+        <div class="p-3 mb-2 bg-info text-white">.bg-info</div>
+        <div class="p-3 mb-2 bg-light text-dark">.bg-light</div>
+        <div class="p-3 mb-2 bg-dark text-white">.bg-dark</div>
+        <div class="p-3 mb-2 bg-white text-dark">.bg-white</div>
+        <div class="p-3 mb-2 bg-transparent text-dark">.bg-transparent</div>
+    </div>
+
 
 </body>
 <!-- jQuery: es necesario para versiones de Bootstrap anteriores a la 5 -->
